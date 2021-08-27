@@ -45,6 +45,14 @@ body {
   width: 100%;
 }
 
+.form-control select {
+  border: 2px solid steelblue;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 10px;
+  width: 100%;
+}
+
 .form-control.error input {
   border: 2px solid red;
 }
@@ -60,6 +68,14 @@ body {
 
 .form-control small {
   visibility: hidden;
+}
+
+.form-control.error select {
+  border: 2px solid steelblue;
+}
+
+.form-control.success select {
+  border: 2px solid green;
 }
 
 .form button {
