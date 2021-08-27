@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="../CSS/RegistrationFormStyle.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Create Account</h2>
+    </div>
+    <form id="registrationForm" class="form">
+      <div class="form-control">
+        <label for="firstName">* First Name</label>
+        <input id="firstName" type="text" placeholder="Your First Name"/>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="lastName">* Last Name</label>
+        <input id="lastName" type="text" placeholder="Your Last Name"/>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="preferredName">Preferred Name</label>
+        <input id="preferredName" type="text" placeholder="Your Preferred Name"/>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="dateOfBirth">* Date of Birth</label>
+        <input id="dateOfBirth" type="date" min="1900-01-01"/>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="gender">Gender</label>
+        <select id="gender" name="gender">
+          <option value="">--- Select ---</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="username">* Username</label>
+        <input id="username" type="text" placeholder="Your Username"/>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="emailAddress">* Email Address</label>
+        <input id="emailAddress" type="text" placeholder="Your Email Address"/>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="telephoneNumber">* Telephone Number</label>
+        <input id="telephoneNumber" type="text" placeholder="Your Telephone Number"/>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="password">* Password</label>
+        <input id="password" type="password" placeholder="Your Password"/>
+        <small>Validation Message</small>
+      </div>
+      <div class="form-control">
+        <label for="confirmPassword">* Confirm Password</label>
+        <input id="confirmPassword" type="password" placeholder="Re-enter Your Password"/>
+        <small>Validation Message</small>
+      </div>
+      <button>Submit</button>
+    </form>
+    <div class="footer">
+      <h6>* fields must be filled.</h6>
+    </div>
+  </div>
+  <script src="../JavaScript/RegistrationFormValidation.js"></script>
+</body>
